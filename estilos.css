@@ -1,0 +1,253 @@
+*{
+    margin:0;
+    padding:0;
+  }
+
+/* menu */
+
+.menu{
+    float:right;
+     }
+.menu ul {
+ 
+ list-style:none;
+ margin:0;
+ padding:0;
+
+}
+
+/* items del menu */
+
+.menu ul li {
+ background-color:#D6BCA7;
+}
+
+/* enlaces del menu */
+
+.menu ul a {
+ display:block;
+ color:#fff;
+ text-decoration:none;
+ font-weight:400;
+ font-size:15px;
+ padding:10px;
+
+ text-transform:uppercase;
+ letter-spacing:1px;
+}
+
+/* items del menu */
+
+.menu ul li {
+ position:relative;
+ float:left;
+ margin:2;
+ padding:0;
+}
+
+/* efecto al pasar el ratón por los items del menu */
+
+.menu ul li:hover {
+ background:#6C503B;
+}
+/* menu desplegable */
+
+.menu ul ul {
+ display:none;
+ position:absolute;
+ top:100%;
+ left:0;
+ background:#eee;
+ padding:0;
+}
+
+/* items del menu desplegable */
+
+.menu ul ul li {
+ float:none;
+ width:150px
+}
+
+/* enlaces de los items del menu desplegable */
+
+.menu ul ul a {
+ line-height:120%;
+ padding:10px 15px;
+}
+
+/* items del menu desplegable al pasar el ratón */
+
+.menu ul li:hover > ul {
+ display:block;
+}
+
+
+
+body   {
+        font-family: 'Quicksand', sans-serif;
+       }
+
+.bloque{
+         width:100%;
+         height:auto;
+         overflow:hidden;
+}
+.header{
+         background-image: url("imagenes/fondo.jpg");
+         background-size: 100%;
+         backgrpund:no-repeat;
+}
+.inicio {
+        opacity:0.45;
+        }
+
+.contenedor{
+    position: relative;
+    display: inline-block;
+    text-align: center;
+}
+.centrado{
+     position:absolute;
+     top:50%;
+     left:50%;
+     transform: translate(-50%,-50%);
+}
+.banner{
+      color:white;
+}
+.primer-boton{
+         padding:10px 25px;
+         background:#93897F;
+         color:white;
+         border-radius:8px;     
+}
+
+
+
+
+
+
+
+.centrar {
+         width:80%;
+         height:auto;
+         overflow:hidden;
+         
+         margin:auto;
+         text-align:center;
+}
+
+
+/*izquierda y derecha*/
+
+.izquierda, .derecha{
+   width:50%;
+   height:auto;overflow:hidden;
+  
+   display: inline-block;
+  }
+
+.izquierda{
+float:left;}
+
+.derecha{
+
+float:right;
+ text-align:right;   
+}
+.subtitulo{
+color:white;
+         
+}
+
+.subtitulo{
+      font-size:50px;
+      text-align:center;
+      }
+.descripcion{
+    font-size:20;
+}
+/*-------------------*/
+.ofertas{
+     color:white;
+}
+.productos{
+             background:#BBAFA2;
+             margin-top:15px;
+             marhin-down:15px;
+          }
+.contenedor-ofertas{
+        display:flex;
+        flex-wrap:wrap;
+        justify-content: space-between;
+        align-items:baseline;
+
+ }
+.producto{
+      width:30%;
+      height:80%; overflow:hidden;
+      background:white;
+      border-radius:25px 25px 25px 25px;
+         }
+.nombre-producto{
+     
+     padding:15px;
+     background:#BC8E60;
+     color:"white";
+     float:center;
+     
+     margin-top:15px;
+}
+.img-producto{
+       width:60%;
+             }
+.item img:hover {
+  transform: scale(2.2);
+}
+.boton-compra{
+         padding:17px 35px;
+         background:#705E4C;
+         color:white;
+         border-radius:7px;
+         border:0px; 
+         width:90%;
+}
+/*////////////////////////////////////////////////*/
+/*CATALOGO*/
+
+.img-portada{
+       
+       width:450px; 
+       height:400px; 
+       
+       background-color:silver;
+       border-radius:20px;
+         
+}
+.pro{
+    position: relative;
+    display: inline-block;
+    text-align: center;
+}
+.img-portada {
+        opacity:0.6;
+        }
+.pre {
+      background:#D6BCA7;
+      color:white;
+}
+.link{
+     text-decoration:none;
+}
+/*pagos*/
+.boton-pago{
+         padding:10px 25px;
+         background:#93897F;
+         color:white;
+         border-radius:8px;    
+         text-decoration:none; 
+}
+/*encuesta*/
+table{ 
+       border-radius:20px;
+}
